@@ -8,8 +8,8 @@ import { AI_NAME } from "@/configuration/identity";
 
 function AILogo() {
   return (
-    <div className="w-9 h-9">
-      <Image src="/ai-logo.png" alt={AI_NAME} width={36} height={36} />
+    <div className="w-12 h-12 flex items-center justify-center relative">
+    <div className="w-12 h-12 bg-purple-600 rounded-full"></div>
     </div>
   );
 }
