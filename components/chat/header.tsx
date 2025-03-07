@@ -6,7 +6,7 @@ import { AI_NAME } from "@/configuration/identity";
 
 export const AILogo = () => (
   <div className="w-12 h-12 relative">
-    <Image src="file:///Users/rachelthomas/Purple%20Dot.png" alt={AI_NAME} width={48} height={48} />
+    <Image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.commentnation.com%2Fbackground.php%3FMyFile%3Dpurple_random_circle_dots_seamless_background.php&psig=AOvVaw3RTkNrWrngats0FdKnsRrG&ust=1741473841568000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjPsuGF-YsDFQAAAAAdAAAAABAE" alt={AI_NAME} width={48} height={48} />
     <div className="w-2 h-2 rounded-full bg-green-500 absolute -bottom-0.5 -right-0.5"></div>
   </div>
 );
